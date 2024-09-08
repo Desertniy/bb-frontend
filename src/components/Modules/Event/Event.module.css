@@ -1,0 +1,37 @@
+.Event{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #7b5fb0;
+    border-radius: 7px;
+    padding: 7px;
+}
+
+.EventName{
+    margin: 0 40px;
+}
+
+
+.EventButtons{
+    margin: 0 20px;
+    display: flex;
+}
+
+.EventButton{
+    margin: 0 20px;
+}
+
+.TypeSportName{
+    text-align: center;
+    background-color: #a883e7;
+    border-radius: 5px;
+    padding: 2px 0;
+    margin: 2px 0;
+}
+
+.EventCard{
+    display: block;
+    margin: 9px;
+}
+
+

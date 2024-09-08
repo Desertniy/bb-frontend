@@ -1,0 +1,17 @@
+.MyButton{
+    padding: 10px 30px;
+    background-color: #9e73ff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    color: #282c34;
+    border-radius: 20px;
+    border: 0;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin: 0 5px;
+}
+
+.MyButton:hover{
+    background-color: #6d4fb3;
+    color: white;
+}

@@ -1,0 +1,33 @@
+.MainHeader {
+    background-color: #282c34;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+.MainHeader::after {
+    content: "";
+    position: absolute;
+    top: 77px; /* Начало сразу после Header */
+    left: 0;
+    right: 0;
+    height: 15px; /* Регулируем высоту свечения */
+    background: linear-gradient(rgb(158, 115, 255), transparent);
+    z-index: 1;
+}
+span {
+    color: #9e73ff;
+}
+
+.buttonsAndLogo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nickAndBalance{
+    margin: 0 15px;
+}

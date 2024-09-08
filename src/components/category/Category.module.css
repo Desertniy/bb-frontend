@@ -1,0 +1,35 @@
+.Category{
+    background-color: #282c34;
+    min-height: 90vh;
+    max-height: 100%;
+    min-width: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Wrap h3{
+    color: white;
+    margin: 5px 0;
+}
+
+.AList{
+    display: flex;
+    flex-direction: column;
+}
+
+.AList a{
+    display: block;
+    text-decoration: none;
+    margin: 7px;
+    color: #9e73ff;
+    transition: color 0.3s ease;
+}
+
+.AList a:hover{
+    color: #6d4fb3;
+}
+
+.H3Name{
+    text-align: center;
+}

@@ -1,0 +1,24 @@
+.InputContainer {
+    width: 400px; /* Максимальная ширина контейнера ввода */
+    margin: 10px;
+}
+
+.CustomInput {
+    width: 100%;
+    padding: 10px;
+    background-color: #282c34; /* Фоновый цвет поля ввода */
+    border: 2px solid #6d4fb3; /* Цвет обводки */
+    border-radius: 5px; /* Скругление углов */
+    color: #ffffff; /* Цвет текста внутри поля ввода */
+    font-size: 16px;
+}
+
+.CustomInput:focus {
+    border-color: #9e73ff; /* Цвет обводки при фокусе */
+    outline: none; /* Удаление стандартного контура */
+    box-shadow: 0 4px 8px #9e73ff;
+}
+
+.CustomInput::placeholder{
+    color: #9e73ff;
+}

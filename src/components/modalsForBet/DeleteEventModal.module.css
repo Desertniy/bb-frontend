@@ -1,0 +1,11 @@
+.selectStyle {
+    display: block;
+    width: 400px; /* Максимальная ширина контейнера ввода */
+    margin: 10px;
+    padding: 10px;
+    background-color: #282c34; /* Фоновый цвет поля ввода */
+    border: 2px solid #6d4fb3; /* Цвет обводки */
+    border-radius: 5px; /* Скругление углов */
+    color: #9e73ff; /* Цвет текста внутри поля ввода */
+    font-size: 16px;
+}
